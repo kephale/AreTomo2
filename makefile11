@@ -1,5 +1,5 @@
 PRJHOME = $(shell pwd)
-CUDAHOME = $(HOME)/nvidia/cuda-12.1
+CUDAHOME ?= $(HOME)/nvidia/cuda-12.1
 CUDAINC = $(CUDAHOME)/include
 CUDALIB = $(CUDAHOME)/lib64
 PRJINC = $(PRJHOME)/Include
